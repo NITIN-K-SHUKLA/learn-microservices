@@ -26,6 +26,5 @@ public class User {
     private String about;
 
     @Transient
-    //we will get it from another microservice
     private List<Rating> ratings= new ArrayList<>();
 }

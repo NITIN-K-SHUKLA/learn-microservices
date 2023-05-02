@@ -12,5 +12,4 @@ public interface HotelService {
     //get single
     Hotel get(String hotelId);
 
-    //TODO: delete
 }

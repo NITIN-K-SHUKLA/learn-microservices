@@ -40,7 +40,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAllUser() {
 
-        //TODO: implement rating call using REST TEMPLATE
         return userRepository.findAll();
     }
 
